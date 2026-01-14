@@ -1,0 +1,32 @@
+# ===== Ambiente virtual =====
+venv/
+.env/
+.venv/
+
+# ===== Cache do Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Arquivos de sistema =====
+.DS_Store
+Thumbs.db
+
+# ===== IDEs / editores =====
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
+
+# ===== Arquivos temporários =====
+*.tmp
+*.temp
+
+# ===== Dados sensíveis ou pesados (opcional) =====
+# Se quiser ignorar a base original ou arquivos exportados
+# data/*.csv
+# data/*.xlsx
